@@ -1,0 +1,17 @@
+button {
+    font-size: 20px;
+    background-color: aqua;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    padding: 10px 14px;
+    transition: transform .3s ease-in-out;
+}
+
+button::hover{
+    transform: scale(1.2);
+}
+
+button a {
+    text-decoration: none;
+}
