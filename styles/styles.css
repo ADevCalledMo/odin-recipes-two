@@ -1,7 +1,9 @@
 * {
     margin: 0%;
     padding: 0%;
+    
 }
+
 
 .odin-title {
     text-align: center;
@@ -12,10 +14,14 @@
     border: 5px black dotted;
 }
 
+ul {
+    text-align: center;
+}
 
 
 li {
     list-style: none;
+    display: inline;
 }
 
 button {
