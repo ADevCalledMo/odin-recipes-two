@@ -8,10 +8,12 @@
 .odin-title {
     text-align: center;
     padding: 10px;
-    margin: 10px;
+    margin: auto;
+    margin-bottom: 10px;
     letter-spacing: -2px;
     text-transform: uppercase;
     border: 5px black dotted;
+    width: 400px;
 }
 
 ul {
@@ -53,6 +55,22 @@ button::hover{
 button a {
     text-decoration: none;
 }
+
+
+.main-page__pics-top {
+    display: flex;
+    width: 600px;
+}
+
+.main-page__pics-top div {
+    flex: 1;
+}
+
+.main-page__pics-top img {
+    height: 100px;
+    width: 100px;
+}
+
 
 .main-page__intro {
     width: 800px;
