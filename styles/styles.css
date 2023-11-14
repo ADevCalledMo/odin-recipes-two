@@ -6,21 +6,16 @@
 .container {
     padding: 1em;
     margin: 1em;
+    height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
 .main-page__pics-top {
-    display: flex;
-    justify-content: center;
     width: 800px;
 }
 
-.links{
-    display: flex;
-    justify-content: center;
-}
 
 
 .odin-title {
