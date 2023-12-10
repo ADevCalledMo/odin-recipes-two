@@ -1,19 +1,66 @@
+/* FONT */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+
+/* Colour Variables */
+:root {
+  --colour-1: #f2f9f1;
+  --colour-2: #ddeedf;
+  --colour-3: #b6cdbd;
+  --colour-4: #5c715e;
+  font-family: "Roboto", sans-serif;
+}
+
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.container {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
 }
 
-.container div {
-    display: flex;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-.header {
-    justify-content: space-between;
+nav {
+  height: 84px;
+  background-color: var(--colour-3);
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  gap: 16px;
+  padding: 8px 18px;
+}
+
+li.Logo {
+  font-size: 3.5rem;
+  color: var(--colour-4);
+}
+
+nav button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  background-color: var(--colour-4);
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.Recipe-Text {
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  color: var(--colour-4);
 }
