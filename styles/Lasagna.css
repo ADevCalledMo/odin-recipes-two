@@ -28,6 +28,8 @@ a {
   color: inherit;
 }
 
+/* NAV-BAR */
+
 nav {
   height: 84px;
   background-color: var(--colour-3);
