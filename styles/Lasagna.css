@@ -31,7 +31,7 @@ a {
 /* NAV-BAR */
 
 nav {
-  height: 84px;
+  height: 15vh;
   background-color: var(--colour-3);
   display: flex;
 }
@@ -66,3 +66,23 @@ nav button {
   letter-spacing: 0.2rem;
   color: var(--colour-4);
 }
+
+.main {
+    display: flex;
+    height: 85vh;
+
+
+
+/* Sidebar */
+.sidebar {
+    width: 300px;
+    background-color: var(--colour-2);
+    padding: 16px;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.sidebar li {
+    font-size: 1.2rem;
+}
+
