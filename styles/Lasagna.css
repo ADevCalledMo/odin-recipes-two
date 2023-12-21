@@ -31,7 +31,7 @@ a {
 /* NAV-BAR */
 
 nav {
-  height: 15vh;
+  height: 10vh;
   background-color: var(--colour-3);
   display: flex;
 }
@@ -69,7 +69,7 @@ nav button {
 
 .main {
     display: flex;
-    height: 85vh;
+    height: 90vh;
 }
 
 
