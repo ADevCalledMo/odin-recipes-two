@@ -1,0 +1,125 @@
+/* FONT */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+
+/* Colour Variables */
+:root {
+  --colour-1: #f2f9f1;
+  --colour-2: #ddeedf;
+  --colour-3: #b6cdbd;
+  --colour-4: #5c715e;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* NAV-BAR */
+
+nav {
+  height: 10vh;
+  background-color: var(--colour-3);
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  gap: 16px;
+  padding: 8px 18px;
+}
+
+li.Logo {
+  font-size: 3.5rem;
+  color: var(--colour-4);
+}
+
+nav button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  background-color: var(--colour-4);
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.Recipe-Text {
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  color: var(--colour-4);
+}
+
+.main {
+    display: flex;
+    height: 90vh;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 300px;
+    background-color: var(--colour-4);
+    padding: 16px;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    color: #fff;
+}
+
+.sidebar ul {
+    margin-left: 16px;
+}
+
+.sidebar li {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+}
+
+.sidebar h1 {
+    margin-bottom: 32px;
+}
+
+.main-right {
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 85vw;
+gap: 8px;
+}
+
+.steps { 
+    max-width: 600px;
+}
+
+.main-right img {
+    width: 900px;
+    height:900px;
+}
+
+.steps h4 {
+    font-size: 3rem;
+    margin-bottom: 8px;
+}
+
+.steps li {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--colour-4);
+}
