@@ -60,6 +60,28 @@ nav button {
   font-weight: 400;
 }
 
+/* Main */
+.main {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 80vh;
+  border: 1px black solid;
+}
+
+.main-left, .main-right {
+  border: 1px red dotted;
+}
+
+.main-left {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.main-left {
+
+}
 
 /* Footer */
 .footer {
